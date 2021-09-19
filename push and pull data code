@@ -1,0 +1,28 @@
+push and pull data code
+
+//Push data
+
+//$sql = "INSERT INTO members (firstname, lastname, fun)
+//VALUES ('John', 'Doe', 'yes')";
+//
+//if ($conn->query($sql) === TRUE) {
+//    echo "New record created successfully\n";
+//
+//} else {
+//   echo "Error: " . $sql . "<br>" . $conn->error;
+//}
+
+
+// Pull data
+//$sql = "SELECT * FROM members";
+//$result = $conn->query($sql);
+
+//if ($result->num_rows > 0) {
+    // output data of each row
+//    while($row = $result->fetch_assoc()) {
+//        echo "id: " . $row["id"]. " || Firstname: " . $row["firstname"]. " || Lastname: " . $row["lastname"]. " || Fun?: " . $row["fun"]. "<br>";
+//    }
+//} else {
+//    echo "0 results";
+//}
+//$conn->close();
